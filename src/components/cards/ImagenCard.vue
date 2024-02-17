@@ -3,17 +3,14 @@
         <section class="imagenCard__container">
           <img src="@/assets/images/Image-Placeholder.jpg" alt="" />
           <article class="imagenCard__container__info">
-            <p>Space Walking</p>
-            <div class="imagenCard__container__info-profile">
-              <img src="@/assets/images/Avatar.png" alt="" /><span>Animakid</span>
-            </div>
+            <InfoCollection title="Space Walking" src="Avatar.png" name="Animakid"  />
           </article>
         </section>
       </section>
 </template>
 
 <script setup lang="ts">
-
+import InfoCollection from '../utils/InfoCollection.vue';
 </script>
 
 <style lang="scss" scoped>
@@ -31,23 +28,6 @@
     }
     &__info{
       padding: 20px;
-      p{
-        font-weight: 600;
-        font-size: 18px;
-      }
-      &-profile{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 15px;
-        img{
-          width: 15px;
-        }
-        span{
-          font-size: 12px;
-          
-        }
-      }
     }
   }
 }
