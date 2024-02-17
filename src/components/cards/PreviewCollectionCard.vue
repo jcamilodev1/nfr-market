@@ -30,7 +30,7 @@ import InfoCollection from '@/components/utils/InfoCollection.vue';
     transition: all 0.5s;
       cursor: pointer;
       &:hover{
-        transform: scale(0.8);
+        transform: scale(0.9);
         transition: all 0.5s;
       }
   }
@@ -55,7 +55,7 @@ import InfoCollection from '@/components/utils/InfoCollection.vue';
       transition: all 0.5s;
       cursor: pointer;
       &:hover{
-        transform: scale(0.8);
+        transform: scale(0.9);
         transition: all 0.5s;
       }
     }

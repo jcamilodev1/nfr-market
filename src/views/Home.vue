@@ -3,6 +3,7 @@
     <Header />
     <Hero />
     <Trending />
+    <TopCreators />
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from '../components/Header.vue'
 import Hero from '../components/Hero.vue'
 import Trending from '../components/Trending.vue'
+import TopCreators from '../components/TopCreators.vue';
 </script>
 
 <style lang="scss" scoped>
