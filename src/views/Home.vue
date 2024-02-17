@@ -1,10 +1,19 @@
 <template>
-  <main>
-    <Header />
-    <Hero />
-    <Trending />
-    <TopCreators />
-    <BrowseCategories />
+  <main class="main">
+    <div class="main__container">
+      <Header />
+      <Hero />
+      <Trending />
+      <TopCreators />
+      <BrowseCategories />
+    </div>
+
+    <NftView />
+
+    <div class="main__container">
+      <HowWorks />
+      <WeeklyDigest />
+    </div>
   </main>
   <Footer />
 </template>
@@ -15,13 +24,21 @@ import Hero from "../components/Hero.vue";
 import Trending from "../components/Trending.vue";
 import TopCreators from "../components/TopCreators.vue";
 import Footer from "../components/FooterView.vue";
+import WeeklyDigest from "../components/WeeklyDigest.vue";
+import HowWorks from "../components/HowWorks.vue";
+import NftView from "../components/NftView.vue";
 import BrowseCategories from "../components/BrowseCategories.vue";
 </script>
 
 <style lang="scss" scoped>
-main {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+.main {
+  margin-bottom: 8rem;
+  &__container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    gap: 8rem;
+  }
 }
 </style>

@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import EmailButton from "../components/utils/EmailButton.vue";
+</script>
 
 <template>
   <footer class="footer">
@@ -28,6 +30,8 @@
           <h5>Join our weekly digest</h5>
 
           <p>NFT marketplace UI created with Anima for Figma.</p>
+
+          <EmailButton />
         </div>
       </div>
       <p class="footer__copy">Ⓒ NFT Market. Use this template freely.</p>
