@@ -3,6 +3,7 @@
   --call-action-color: #a259ff;
   --radius: 20px;
   --secondary-font: "Space Mono", monospace;
+  --secondary-color: #cccccc;
 }
 
 * {
@@ -26,5 +27,5 @@ p {
   font-size: 1rem;
   line-height: 1.4rem;
   font-weight: 400;
-  color: #cccccc;
+  color: var(--secondary-color);
 }

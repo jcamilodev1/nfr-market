@@ -13,11 +13,13 @@
           <p>Join our community</p>
           <div class="footer__social">
             <i class="ti ti-brand-discord"></i>
+            <i class="ti ti-brand-youtube"></i>
+            <i class="ti ti-brand-twitter"></i>
+            <i class="ti ti-brand-instagram"></i>
           </div>
         </div>
         <div class="footer__column">
           <h5>Explore</h5>
-
           <p>Marketplace</p>
           <p>Rankings</p>
           <p>Connect a wallet</p>
@@ -28,6 +30,7 @@
           <p>NFT marketplace UI created with Anima for Figma.</p>
         </div>
       </div>
+      <p class="footer__copy">Ⓒ NFT Market. Use this template freely.</p>
     </section>
   </footer>
 </template>
@@ -46,6 +49,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     border-bottom: 1px solid #858584;
+    padding-bottom: 40px;
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 700px) {
+      padding: 20px;
+      grid-template-columns: 1fr;
+    }
   }
   &__column {
     display: flex;
@@ -60,6 +71,24 @@
       font-size: 32px;
       color: var(--call-action-color);
     }
+  }
+  &__social {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    i {
+      font-size: 32px;
+      color: var(--secondary-color);
+      &:hover {
+        cursor: pointer;
+        color: var(--call-action-color);
+      }
+    }
+  }
+  &__copy {
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    margin-top: 1rem;
   }
 }
 </style>
