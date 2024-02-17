@@ -7,11 +7,17 @@
       </div>
       <IconButton class="outline" icon="rocket">View Rankings</IconButton>
     </section>
+    <section class="TopCreators__artist">
+     
+      <ArtistCard />
+
+    </section>
   </section>
 </template>
 
 <script setup lang="ts">
 import IconButton from './utils/IconButton.vue'
+import ArtistCard from './cards/ArtistCard.vue';
 </script>
 
 <style lang="scss" scoped>
@@ -30,6 +36,13 @@ import IconButton from './utils/IconButton.vue'
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+  }
+  &__artist{
+    display: flex;
+    gap: 20px;
   }
 }
+
+
 </style>
