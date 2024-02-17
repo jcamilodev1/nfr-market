@@ -5,35 +5,35 @@ import EmailButton from "../components/utils/EmailButton.vue";
 <template>
   <footer class="footer">
     <section class="footer__container">
-      <div class="footer__content">
-        <div class="footer__column">
-          <div class="footer__title">
+      <section class="footer__content">
+        <article class="footer__column">
+          <article class="footer__title">
             <i class="ti ti-building-store"></i>
             <h5>NFT Marketplace</h5>
-          </div>
+          </article>
           <p>NFT marketplace UI created with Anima for Figma.</p>
           <p>Join our community</p>
-          <div class="footer__social">
+          <article class="footer__social">
             <i class="ti ti-brand-discord"></i>
             <i class="ti ti-brand-youtube"></i>
             <i class="ti ti-brand-twitter"></i>
             <i class="ti ti-brand-instagram"></i>
-          </div>
-        </div>
-        <div class="footer__column">
+          </article>
+        </article>
+        <article class="footer__column">
           <h5>Explore</h5>
           <p>Marketplace</p>
           <p>Rankings</p>
           <p>Connect a wallet</p>
-        </div>
-        <div class="footer__column">
+        </article>
+        <article class="footer__column">
           <h5>Join our weekly digest</h5>
 
           <p>NFT marketplace UI created with Anima for Figma.</p>
 
           <EmailButton />
-        </div>
-      </div>
+        </article>
+      </section>
       <p class="footer__copy">Ⓒ NFT Market. Use this template freely.</p>
     </section>
   </footer>

@@ -1,19 +1,19 @@
 <template>
   <main class="main">
-    <div class="main__container">
+    <section class="main__container">
       <Header />
       <Hero />
       <Trending />
       <TopCreators />
       <BrowseCategories />
-    </div>
+    </section>
 
     <NftView />
 
-    <div class="main__container">
+    <section class="main__container">
       <HowWorks />
       <WeeklyDigest />
-    </div>
+    </section>
   </main>
   <Footer />
 </template>
