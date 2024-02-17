@@ -1,0 +1,60 @@
+<script setup lang="ts"></script>
+
+<template>
+  <footer class="footer">
+    <section class="footer__container">
+      <div class="footer__content">
+        <div class="footer__column">
+          <div class="footer__title">
+            <i class="ti ti-building-store"></i>
+            <h5>NFT Marketplace</h5>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <i class="ti ti-building-store"></i>
+            <h5>Explore</h5>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">
+            <i class="ti ti-building-store"></i>
+            <h5>Join our weekly digest</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</template>
+
+<style lang="scss" scoped>
+.footer {
+  color: #fff;
+  background-color: #3b3b3b;
+
+  &__container {
+    padding: 80px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    border-bottom: 1px solid #858584;
+  }
+  &__title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    p {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  }
+  i {
+    font-size: 32px;
+    color: var(--call-action-color);
+  }
+}
+</style>

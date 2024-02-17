@@ -9,12 +9,12 @@
 defineProps({
   icon: {
     type: String,
-  }
-})
+  },
+});
 </script>
 
 <style lang="scss" scoped>
-button{
+button {
   display: flex;
   align-items: center;
   background: var(--call-action-color);
@@ -24,22 +24,21 @@ button{
   color: white;
   font-weight: 600;
   cursor: pointer;
-  i{
+  i {
     margin-right: 18px;
     font-size: 18px;
   }
-  &:hover{
+  &:hover {
     background: var(--call-action-color);
     opacity: 0.8;
     transition: all 0.5s;
   }
-  &.outline{
+  &.outline {
     border: 1px solid var(--call-action-color);
     background: transparent;
-    i{
+    i {
       color: var(--call-action-color);
     }
   }
 }
-
 </style>
