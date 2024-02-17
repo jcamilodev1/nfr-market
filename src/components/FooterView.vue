@@ -11,6 +11,9 @@
           </div>
           <p>NFT marketplace UI created with Anima for Figma.</p>
           <p>Join our community</p>
+          <div class="footer__social">
+            <i class=""></i>
+          </div>
         </div>
         <div class="footer__column">
           <div class="footer__title">
@@ -32,7 +35,6 @@
 
 <style lang="scss" scoped>
 .footer {
-  color: #fff;
   background-color: #3b3b3b;
 
   &__container {
@@ -47,17 +49,14 @@
     border-bottom: 1px solid #858584;
   }
   &__column {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
   &__title {
     display: flex;
     gap: 1rem;
     align-items: center;
-    p {
-      font-size: 1.5rem;
-      font-weight: 500;
-    }
   }
   i {
     font-size: 32px;
