@@ -1,21 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --call-action-color: #a259ff;
   --radius: 20px;
   --secondary-font: "Space Mono", monospace;
 }
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
-  font-family: "Work Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 body {
   background: #2b2b2b;
 }
 h5 {
-  font-family: var(secondary-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 2.2rem;

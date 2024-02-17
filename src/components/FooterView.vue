@@ -16,16 +16,15 @@
           </div>
         </div>
         <div class="footer__column">
-          <div class="footer__title">
-            <i class="ti ti-building-store"></i>
-            <h5>Explore</h5>
-          </div>
+          <h5>Explore</h5>
+
+          <p>Marketplace</p>
+          <p>Rankings</p>
+          <p>Connect a wallet</p>
         </div>
         <div class="footer__column">
-          <div class="footer__title">
-            <i class="ti ti-building-store"></i>
-            <h5>Join our weekly digest</h5>
-          </div>
+          <h5>Join our weekly digest</h5>
+
           <p>NFT marketplace UI created with Anima for Figma.</p>
         </div>
       </div>
@@ -57,6 +56,9 @@
     display: flex;
     gap: 1rem;
     align-items: center;
+  }
+  h5 {
+    color: #fff;
   }
   i {
     font-size: 32px;
