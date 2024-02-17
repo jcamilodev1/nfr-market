@@ -10,10 +10,8 @@ import getFile from "../utils/getFile";
 
 <style lang="scss">
 .nft-content {
-  left: 0;
   img {
     width: 100%;
-    min-width: 100dvw;
   }
 }
 </style>

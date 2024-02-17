@@ -30,13 +30,13 @@ import NftView from "../components/NftView.vue";
 
 <style lang="scss" scoped>
 .main {
-  display: grid;
-  gap: 8rem;
   margin-bottom: 8rem;
   &__container {
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
+    display: grid;
+    gap: 8rem;
   }
 }
 </style>
