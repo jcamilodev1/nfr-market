@@ -12,7 +12,7 @@
           <p>NFT marketplace UI created with Anima for Figma.</p>
           <p>Join our community</p>
           <div class="footer__social">
-            <i class=""></i>
+            <i class="ti ti-brand-discord"></i>
           </div>
         </div>
         <div class="footer__column">
@@ -56,13 +56,10 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-  }
-  h5 {
-    color: #fff;
-  }
-  i {
-    font-size: 32px;
-    color: var(--call-action-color);
+    i {
+      font-size: 32px;
+      color: var(--call-action-color);
+    }
   }
 }
 </style>
