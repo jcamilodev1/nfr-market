@@ -9,6 +9,8 @@
             <i class="ti ti-building-store"></i>
             <h5>NFT Marketplace</h5>
           </div>
+          <p>NFT marketplace UI created with Anima for Figma.</p>
+          <p>Join our community</p>
         </div>
         <div class="footer__column">
           <div class="footer__title">
@@ -21,6 +23,7 @@
             <i class="ti ti-building-store"></i>
             <h5>Join our weekly digest</h5>
           </div>
+          <p>NFT marketplace UI created with Anima for Figma.</p>
         </div>
       </div>
     </section>
@@ -42,6 +45,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     border-bottom: 1px solid #858584;
+  }
+  &__column {
+    display: grid;
+    gap: 1rem;
   }
   &__title {
     display: flex;
