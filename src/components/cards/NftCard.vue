@@ -3,13 +3,7 @@
     <section class="imagenCard__container">
       <img :src="getFile(`${image}.png`)" alt="" />
       <section class="imagenCard__container__info">
-        <section class="imagenCard__header">
-          <h5>Distant Galaxy</h5>
-          <article class="imagenCard__avatar">
-            <img :src="getFile(`${avatar}.png`)" alt="avatar" />
-            <p>{{ avatarName }}</p>
-          </article>
-        </section>
+        <InfoCollection :title="title" :src="avatar" :name="avatarName" />
 
         <section class="ic">
           <article>
@@ -28,11 +22,13 @@
 
 <script setup lang="ts">
 import getFile from "../../utils/getFile";
+import InfoCollection from "../utils/InfoCollection.vue";
 
 defineProps({
   image: String,
   avatar: String,
   avatarName: String,
+  title: String,
 });
 </script>
 

@@ -13,9 +13,24 @@ import NftCard from "./cards/NftCard.vue";
       <IconButton class="outline" icon="eye">See All</IconButton>
     </section>
     <section class="discover__grid">
-      <NftCard image="galaxy" avatar="MoonDancer" avatar-name="MoonDancer" />
-      <NftCard image="edena" avatar="nebula" avatar-name="NebulaKid" />
-      <NftCard image="astro" avatar="spaceOne" avatar-name="Spaceone" />
+      <NftCard
+        title="Distant Galaxy"
+        image="galaxy"
+        avatar="MoonDancer"
+        avatar-name="MoonDancer"
+      />
+      <NftCard
+        title="Life On Edena"
+        image="edena"
+        avatar="nebula"
+        avatar-name="NebulaKid"
+      />
+      <NftCard
+        title="AstroFiction"
+        image="astro"
+        avatar="spaceOne"
+        avatar-name="Spaceone"
+      />
     </section>
   </section>
 </template>

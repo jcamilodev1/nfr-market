@@ -1,23 +1,23 @@
 <template>
   <section class="collectionInfo">
     <h2>{{ title }}</h2>
-    <AvatarProfile :src="src" :name="name" />
+    <AvatarProfile :src="`${src}.png`" :name="name" />
   </section>
 </template>
 
 <script setup lang="ts">
-import AvatarProfile from './AvatarProfile.vue'
+import AvatarProfile from "./AvatarProfile.vue";
 defineProps({
-    title: {
-      type: String
-    },
-    src: {
-      type: String
-    },
-    name: {
-      type: String
-    }
-  })
+  title: {
+    type: String,
+  },
+  src: {
+    type: String,
+  },
+  name: {
+    type: String,
+  },
+});
 </script>
 
 <style lang="scss" scoped>
