@@ -16,19 +16,19 @@ import NftCard from "./cards/NftCard.vue";
       <NftCard
         title="Distant Galaxy"
         image="galaxy"
-        avatar="MoonDancer"
+        avatar="MoonDancer.png"
         avatar-name="MoonDancer"
       />
       <NftCard
         title="Life On Edena"
         image="edena"
-        avatar="nebula"
+        avatar="nebula.png"
         avatar-name="NebulaKid"
       />
       <NftCard
         title="AstroFiction"
         image="astro"
-        avatar="spaceOne"
+        avatar="spaceOne.png"
         avatar-name="Spaceone"
       />
     </section>

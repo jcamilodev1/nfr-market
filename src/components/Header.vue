@@ -10,14 +10,16 @@
     <article class="header__nav">
       <div>Marketplace</div>
       <div>Rankings</div>
-      <div>Connect a wallet</div>
-      <IconButton icon="user">Sign Up</IconButton>
+      <div @click="router.push('/login')">Connect a wallet</div>
+      <IconButton @click="router.push('/register')" icon="user">Sign Up</IconButton>
     </article>
   </section>
 </template>
 
 <script setup lang="ts">
+import { useRouter } from "vue-router";
 import IconButton from "./utils/IconButton.vue";
+const router = useRouter()
 </script>
 
 <style lang="scss" scoped>

@@ -27,6 +27,9 @@ const onSubmit = () => {
   display: flex;
   border-radius: 1rem;
   overflow: hidden;
+  input{
+    outline: none;
+  }
   &__input {
     padding: 1rem;
     border: none;
