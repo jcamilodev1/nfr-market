@@ -6,15 +6,16 @@
 </template>
 
 <script setup lang="ts">
-import getFile from '@/utils/getFile.ts'
-  defineProps({
-    src: {
-      type: String
-    },
-    name: {
-      type: String
-    }
-  })
+import getFile from "@/utils/getFile";
+
+defineProps({
+  src: {
+    type: String,
+  },
+  name: {
+    type: String,
+  },
+});
 </script>
 
 <style lang="scss" scoped>

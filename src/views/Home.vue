@@ -6,6 +6,7 @@
       <Trending />
       <TopCreators />
       <BrowseCategories />
+      <DiscoverNfts />
     </section>
 
     <NftView />
@@ -28,6 +29,7 @@ import WeeklyDigest from "../components/WeeklyDigest.vue";
 import HowWorks from "../components/HowWorks.vue";
 import NftView from "../components/NftView.vue";
 import BrowseCategories from "../components/BrowseCategories.vue";
+import DiscoverNfts from "../components/DiscoverNfts.vue";
 </script>
 
 <style lang="scss" scoped>

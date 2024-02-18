@@ -10,6 +10,7 @@ import getFile from "../utils/getFile";
 
 <style lang="scss">
 .nft-content {
+  margin: 8rem 0;
   img {
     width: 100%;
   }
