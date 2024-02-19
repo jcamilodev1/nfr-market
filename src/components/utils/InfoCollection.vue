@@ -1,7 +1,7 @@
 <template>
   <section class="collectionInfo">
     <h2>{{ title }}</h2>
-    <AvatarProfile :src="`${src}.png`" :name="name" />
+    <AvatarProfile :src="src" :name="name" />
   </section>
 </template>
 
