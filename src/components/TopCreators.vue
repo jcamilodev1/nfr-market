@@ -8,16 +8,14 @@
       <IconButton class="outline" icon="rocket">View Rankings</IconButton>
     </section>
     <section class="TopCreators__artist">
-     
-      <ArtistCard />
-
+      <ArtistCard @click="$router.push({ name: 'creatorProfile' })" />
     </section>
   </section>
 </template>
 
 <script setup lang="ts">
-import IconButton from './utils/IconButton.vue'
-import ArtistCard from './cards/ArtistCard.vue';
+import IconButton from "./utils/IconButton.vue";
+import ArtistCard from "./cards/ArtistCard.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -38,11 +36,9 @@ import ArtistCard from './cards/ArtistCard.vue';
     align-items: center;
     margin-bottom: 20px;
   }
-  &__artist{
+  &__artist {
     display: flex;
     gap: 20px;
   }
 }
-
-
 </style>
