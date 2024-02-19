@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <article class="hero__container">
-      <h2>Discover digital art & Collect NFTs</h2>
+      <h1>Discover digital art & Collect NFTs</h1>
       <p>
         NFT marketplace UI created with Anima for Figma. Collect, buy and sell
         art from more than 20k NFT artists.

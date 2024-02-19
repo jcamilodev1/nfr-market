@@ -11,7 +11,9 @@
       <div>Marketplace</div>
       <div>Rankings</div>
       <div @click="router.push('/login')">Connect a wallet</div>
-      <IconButton @click="router.push('/register')" icon="user">Sign Up</IconButton>
+      <IconButton @click="router.push('/register')" icon="user"
+        >Sign Up</IconButton
+      >
     </article>
   </section>
 </template>
@@ -19,7 +21,7 @@
 <script setup lang="ts">
 import { useRouter } from "vue-router";
 import IconButton from "./utils/IconButton.vue";
-const router = useRouter()
+const router = useRouter();
 </script>
 
 <style lang="scss" scoped>
@@ -29,6 +31,7 @@ const router = useRouter()
   align-items: center;
   color: white;
   margin-bottom: 50px;
+  padding: 20px 0;
   &__logo {
     display: flex;
     align-items: center;
