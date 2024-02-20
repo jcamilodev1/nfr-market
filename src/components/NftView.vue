@@ -4,7 +4,7 @@ import getFile from "../utils/getFile";
 
 <template>
   <section class="nft-content">
-    <img :src="getFile('nft.png')" alt="" />
+    <img :src="getFile('/src/assets/images/nft.png')" alt="" />
   </section>
 </template>
 
