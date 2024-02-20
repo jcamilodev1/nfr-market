@@ -1,15 +1,29 @@
 <script lang="ts" setup>
-import { inject } from "vue";
+import { ref, inject, onBeforeMount, watch, Ref } from "vue";
 
-defineProps({
-  title: String,
+const hash = ref("");
+const isActive = ref(false);
+
+const props = defineProps(["title"]);
+
+const addTab: any = inject("addTab");
+const activeTabHash: any = inject("activeTabHash");
+onBeforeMount(() => {
+  hash.value = `#${props.title.toLowerCase().replace(/ /g, "-")}`;
+
+  addTab({
+    title: props.title,
+    hash: hash.value,
+  });
 });
 
-const selectedTitle = inject("selectedTitle");
+watch(activeTabHash, () => {
+  isActive.value = activeTabHash.value === hash.value;
+});
 </script>
 
 <template>
-  <div class="tab-content" v-show="title == selectedTitle">
-    <slot />
+  <div v-show="isActive">
+    <slot></slot>
   </div>
 </template>
