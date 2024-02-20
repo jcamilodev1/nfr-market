@@ -5,7 +5,7 @@
       <article class="imagenCard__container__info">
         <InfoCollection
           title="Space Walking"
-          src="Avatar.png"
+          src="src/assets/images/Avatar.png"
           name="Animakid"
         />
       </article>

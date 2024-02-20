@@ -1,22 +1,38 @@
 <template>
   <section class="previewCollectionCard">
     <article class="previewCollectionCard__img">
-      <img src="@\assets\images\Image-Placeholder.jpg" alt="" />
+      <img :src="getMainImage" alt="" />
     </article>
     <article class="previewCollectionCard__info">
-      <img src="@\assets\images\Image-Placeholder.jpg" alt="" />
-      <img src="@\assets\images\Image-Placeholder.jpg" alt="" />
+      <img v-for="img in getThumbsImage" :src="img.url" :alt="img.name" />
       <div class="previewCollectionCard__info-text">
-        1025+
+        {{collection.totalImages}}+
       </div>
     </article>
-    <InfoCollection title="Space Walking" src="Avatar.png" name="Animakid" />
+    <InfoCollection :title="collection.collectionName" :src="collection.avatar" :name="collection.userName" />
   </section>
+  <!-- {{ collection }} -->
 </template>
 
 <script setup lang="ts">
-import InfoCollection from '@/components/utils/InfoCollection.vue';
+import { computed } from 'vue'
 
+import InfoCollection from '@/components/utils/InfoCollection.vue';
+const props = defineProps({
+  collection: {
+    type: Object
+  }
+})
+const collection:any = computed(() => {
+  return props.collection
+})
+
+const getMainImage = computed(() => {
+  return collection.value.images.main[0].url
+})
+const getThumbsImage = computed(() => {
+  return collection.value.images.thumbs
+})
 </script>
 
 <style lang="scss" scoped>

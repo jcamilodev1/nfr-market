@@ -6,7 +6,7 @@ defineProps({ title: String, text: String, image: String });
 
 <template>
   <section class="work">
-    <img :src="getFile(`${image}.png`)" alt="" />
+    <img :src="getFile(`/src/assets/images/${image}.png`)" alt="" />
     <article class="work__card">
       <h5>{{ title }}</h5>
       <p>{{ text }}</p>

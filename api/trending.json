@@ -1,0 +1,83 @@
+[
+  {
+    "images": {
+      "main": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/space1.jpg",
+          "name": "perritoNft"
+        }
+      ],
+      "thumbs": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/Space2.jpg",
+          "name": "gatoNft"
+        },
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/space3.jpg",
+          "name": "osoNft"
+        }
+      ]
+      
+    },
+    "totalImages": 154,
+    "collectionName": "DSGN Animals",
+    "userName": "MrFox",
+    "userID": "1",
+    "collectioniD": "1",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-5.jpg"
+  },
+  {
+    "images": {
+      "main": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/mush2.jpg",
+          "name": "perritoNft"
+        }
+      ],
+      "thumbs": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/mush1.jpg",
+          "name": "gatoNft"
+        },
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/mush3.jpg",
+          "name": "osoNft"
+        }
+      ]
+      
+    },
+    "totalImages": 5,
+    "collectionName": "Magic Mushrooms",
+    "userName": "Shroomie",
+    "userID": "2",
+    "collectioniD": "2",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-11.jpg"
+  },
+  {
+    "images": {
+      "main": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco2.png",
+          "name": "perritoNft"
+        }
+      ],
+      "thumbs": [
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco1.jpg",
+          "name": "gatoNft"
+        },
+        {
+          "url": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco3.jpg",
+          "name": "osoNft"
+        }
+      ]
+      
+    },
+    "totalImages": 584,
+    "collectionName": "DSGN Animals",
+    "userName": "BlueWhale",
+    "userID": "3",
+    "collectioniD": "3",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-4.jpg"
+  }
+]

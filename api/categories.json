@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Art",
+    "icon": "brush",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/space3.jpg"
+  },
+  {
+    "name": "Sport",
+    "icon": "ball-football",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco1.jpg"
+  },
+  {
+    "name": "Collectibles",
+    "icon": "device-usb",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/mush2.jpg"
+  },
+  {
+    "name": "Music",
+    "icon": "music",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco1.jpg"
+  },
+  {
+    "name": "Photography",
+    "icon": "camera",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco3.jpg"
+  },
+  {
+    "name": "Video",
+    "icon": "video",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/disco1.jpg"
+  },
+  {
+    "name": "Utility",
+    "icon": "wand",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/Space2.jpg"
+  },
+  {
+    "name": "Virtual Worlds",
+    "icon": "planet",
+    "img": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/mush3.jpg"
+  }
+]

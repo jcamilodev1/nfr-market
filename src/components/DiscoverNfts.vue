@@ -15,20 +15,20 @@ import NftCard from "./cards/NftCard.vue";
     <section class="discover__grid">
       <NftCard
         title="Distant Galaxy"
-        image="galaxy"
-        avatar="MoonDancer.png"
+        image="/src/assets/images/galaxy.png"
+        avatar="src/assets/images/MoonDancer.png"
         avatar-name="MoonDancer"
       />
       <NftCard
         title="Life On Edena"
-        image="edena"
-        avatar="nebula.png"
+        image="/src/assets/images/edena.png"
+        avatar="src/assets/images/nebula.png"
         avatar-name="NebulaKid"
       />
       <NftCard
         title="AstroFiction"
-        image="astro"
-        avatar="spaceOne.png"
+        image="/src/assets/images/astro.png"
+        avatar="src/assets/images/spaceOne.png"
         avatar-name="Spaceone"
       />
     </section>

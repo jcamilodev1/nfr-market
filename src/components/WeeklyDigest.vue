@@ -5,7 +5,7 @@ import EmailButton from "./utils/EmailButton.vue";
 
 <template>
   <section class="weekly">
-    <img :src="getFile('Photo.png')" alt="Avatar" />
+    <img :src="getFile('/src/assets/images/Photo.png')" alt="Avatar" />
     <div class="weekly__box">
       <div class="weekly__info">
         <h3>Join our weekly digest</h3>

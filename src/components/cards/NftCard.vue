@@ -1,7 +1,7 @@
 <template>
   <section class="imagenCard">
     <section class="imagenCard__container">
-      <img :src="getFile(`${image}.png`)" alt="" />
+      <img :src="getFile(image)" alt="" />
       <section class="imagenCard__container__info">
         <InfoCollection :title="title" :src="avatar" :name="avatarName" />
 
@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import getFile from "../../utils/getFile";
+import getFile from "@/utils/getFile";
 import InfoCollection from "../utils/InfoCollection.vue";
 
 defineProps({

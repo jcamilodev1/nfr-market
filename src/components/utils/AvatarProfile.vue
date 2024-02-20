@@ -1,6 +1,6 @@
 <template>
   <section class="AvatarProfile">
-    <img :src="getFile(src)" alt="Avatar" />
+    <img :src="src" alt="Avatar" />
     <span>{{ name }}</span>
   </section>
 </template>
@@ -26,6 +26,7 @@ defineProps({
   margin-top: 15px;
   img {
     width: 15px;
+    border-radius: 100%;
   }
   span {
     font-size: 12px;

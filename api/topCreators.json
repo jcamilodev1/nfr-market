@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": 1,
+    "name": "Keepitreal",
+    "total": "154 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar.jpg"
+  },
+  {
+    "id": 2,
+    "name": "DigiLab",
+    "total": "54 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "GravityOne",
+    "total": "24 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Juanie",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-3.jpg"
+  },  
+  {
+    "id": 5,
+    "name": "BlueWhale",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "mr fox",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-5.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shroomie",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "robotica",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-7.jpg"
+  },
+  {
+    "id": 9,
+    "name": "RustyRobot",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-8.jpg"
+  },
+  {
+    "id": 10,
+    "name": "animakid",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-9.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dotgu",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-10.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Ghiblier",
+    "total": "4 ETH",
+    "avatar": "https://prueba-vue-drag.s3.us-east-2.amazonaws.com/ArtistAvatar-11.jpg"
+  }
+]

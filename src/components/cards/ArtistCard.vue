@@ -1,13 +1,24 @@
 <template>
   <article class="artistCard">
-    <img src="@/assets/images/ArtistAvatar.png" alt="" />
-    <h2>Keepitreal</h2>
-    <p><span>Total Sales: </span> 34.53 ETH</p>
-    <div>1</div>
+    <img :src="creator.avatar" alt="" />
+    <h2>{{creator.name}}</h2>
+    <p><span>Total Sales: </span> {{ creator.total }}</p>
+    <div>{{ creator.id }}</div>
   </article>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { computed } from "vue";
+
+  const props =  defineProps({
+    creator: {
+      type: Object
+    }
+  })
+  const creator:any = computed(() => {
+    return  props.creator;
+  })
+</script>
 
 <style lang="scss" scoped>
 .artistCard {
@@ -18,13 +29,16 @@
   justify-items: center;
   min-width: 250px;
   position: relative;
+  img{
+    border-radius: 100%;
+  }
   &:hover {
     filter: brightness(120%);
     cursor: pointer;
   }
   h2 {
     font-size: 25px;
-    margin: 15px 0;
+    margin: 0;
   }
   p {
     font-weight: 300;

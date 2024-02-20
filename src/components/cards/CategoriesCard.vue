@@ -1,23 +1,34 @@
 <template>
   <section class="categoriesCard">
     <div>
-      <i class="ti ti-brush"></i>
-      <img src="@/assets/images/Image-Placeholder.jpg" alt="All" />
+      <i :class="`ti ti-${category.icon}`"></i>
+      <img :src="category.img" alt="All" />
     </div>
     <article>
-      <h3>Art</h3>
+      <h3>{{ category.name }}</h3>
     </article>
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { computed } from "vue";
+
+const props = defineProps({
+  category: {
+    type: Object
+  }
+})
+const category:any = computed(() => {
+  return props.category
+})
+</script>
 
 <style lang="scss" scoped>
 
 .categoriesCard{
   background: #3B3B3B;
   border-radius: var(--radius);
-  max-width: 250px;
+  width: 100%;
   overflow: hidden;
   div{
     position: relative;

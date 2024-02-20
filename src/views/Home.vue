@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from "vue";
 import Hero from "@/components/Hero.vue";
 import Trending from "@/components/Trending.vue";
 import TopCreators from "@/components/TopCreators.vue";
@@ -26,6 +27,23 @@ import HowWorks from "@/components/HowWorks.vue";
 import NftView from "@/components/NftView.vue";
 import BrowseCategories from "@/components/BrowseCategories.vue";
 import DiscoverNfts from "@/components/DiscoverNfts.vue";
+
+// import { useCategoriesStore } from "@/store/Categories";
+// import { useCreatorsStore } from "@/store/TopCreators";
+// import { useTrendingStore } from "@/store/Trending";
+
+
+// const categoriesStore = useCategoriesStore()
+// const creatorStore = useCreatorsStore()
+// const trendingStore = useTrendingStore()
+
+// onMounted(() => {
+//   categoriesStore.getCategoriesList()
+//   creatorStore.getCreatorsList()
+//   trendingStore.getTrendingList()
+// }),
+
+
 </script>
 
 <style lang="scss" scoped>

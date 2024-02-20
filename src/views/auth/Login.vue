@@ -1,5 +1,4 @@
 <template>
-  <Header class="p-3" />
 
   <section class="login">
     <article class="login__img">
@@ -23,7 +22,6 @@
     </article>
   </section>
 
-  <FooterView />
 </template>
 
 <script setup lang="ts">
