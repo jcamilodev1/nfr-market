@@ -9,16 +9,10 @@ import Collection from "@/components/tabs/CollectionProfile.vue";
 const currentTab = ref(Created);
 const activeTab: any = ref("Created");
 
-const tabNames: any = {
-  Created: "Created",
-  Owned: "Owned",
-  Collection: "Collection",
-};
-
 const tabs = {
-  Created: Created,
-  Owned: Owned,
-  Collection: Collection,
+  Created,
+  Owned,
+  Collection,
 };
 
 const switchTab = (tabName: string) => {
@@ -35,25 +29,13 @@ const switchTab = (tabName: string) => {
   <section class="tabs">
     <section class="tabs__container">
       <article
+        v-for="(tab, tabName) in tabs"
+        :key="tabName"
         class="tabs__item"
-        @click="switchTab('Created')"
-        :class="{ active: activeTab === 'Created' }"
+        @click="switchTab(tabName)"
+        :class="{ active: activeTab === tabName }"
       >
-        Created
-      </article>
-      <article
-        class="tabs__item"
-        @click="switchTab('Owned')"
-        :class="{ active: activeTab === 'Owned' }"
-      >
-        Owned
-      </article>
-      <article
-        class="tabs__item"
-        @click="switchTab('Collection')"
-        :class="{ active: activeTab === 'Collection' }"
-      >
-        Collection
+        {{ tabName }}
       </article>
     </section>
     <Component :is="currentTab"></Component>
