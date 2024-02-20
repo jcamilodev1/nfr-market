@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, inject, onBeforeMount, watch, Ref } from "vue";
+import { ref, inject, onBeforeMount, watch } from "vue";
 
 const hash = ref("");
 const isActive = ref(false);

@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>Create Profile</div>
+  <div><h2>Create Profile</h2></div>
 </template>
