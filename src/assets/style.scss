@@ -76,3 +76,19 @@ p {
   gap: 2rem;
   margin-bottom: 120px;
 }
+
+.badge {
+  width: 50px;
+  height: 32px;
+  padding: 5px 10px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  background-color: var(--bg-color);
+  color: var(--white);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}

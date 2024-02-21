@@ -34,9 +34,7 @@ const switchTab = (tabName: string) => {
         @click="switchTab(tabName)"
         :class="{ active: activeTab === tabName }"
       >
-        <p class="tabs__title">
-          {{ tabName }}<span class="e-badge e-badge-primary">New</span>
-        </p>
+        <p class="tabs__title">{{ tabName }}<span class="badge">302</span></p>
       </article>
     </section>
     <Component :is="currentTab"></Component>
@@ -73,9 +71,15 @@ const switchTab = (tabName: string) => {
     &.active {
       border-bottom: 1px solid var(--tertiary-color);
       color: var(--tertiary-color);
+      .badge {
+        background-color: var(--tertiary-color);
+      }
     }
   }
   &__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 2rem;
