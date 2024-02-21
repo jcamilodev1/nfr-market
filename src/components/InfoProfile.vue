@@ -5,7 +5,7 @@ import getFile from "@/utils/getFile";
 
 <template>
   <section class="info">
-    <img :src="getFile('profile.png')" alt="" />
+    <img src="@/assets/images/profile.png" alt="" />
     <section class="info__header">
       <h2>Animakid</h2>
       <article class="info__btns">

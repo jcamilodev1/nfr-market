@@ -64,3 +64,15 @@ p {
   font-weight: 400;
   color: var(--secondary-color);
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 120px;
+}

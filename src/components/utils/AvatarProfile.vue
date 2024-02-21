@@ -1,6 +1,6 @@
 <template>
   <section class="AvatarProfile">
-    <img :src="src" alt="Avatar" />
+    <img :src="getFile(`/src/assets/images/${src}`)" alt="Avatar" />
     <span>{{ name }}</span>
   </section>
 </template>

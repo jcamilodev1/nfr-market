@@ -1,5 +1,38 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import NftCard from "../cards/NftCard.vue";
+</script>
 
 <template>
-  <div>Collection Profile</div>
+  <section class="grid-card">
+    <NftCard
+      image="galaxy.png"
+      title="Distant Galaxy"
+      avatar="Avatar.png"
+      avatarName="Animakid"
+    />
+    <NftCard
+      image="galaxy.png"
+      title="Distant Galaxy"
+      avatar="Avatar.png"
+      avatarName="Animakid"
+    />
+    <NftCard
+      image="galaxy.png"
+      title="Distant Galaxy"
+      avatar="Avatar.png"
+      avatarName="Animakid"
+    />
+    <NftCard
+      image="galaxy.png"
+      title="Distant Galaxy"
+      avatar="Avatar.png"
+      avatarName="Animakid"
+    />
+    <NftCard
+      image="galaxy.png"
+      title="Distant Galaxy"
+      avatar="Avatar.png"
+      avatarName="Animakid"
+    />
+  </section>
 </template>

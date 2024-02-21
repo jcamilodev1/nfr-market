@@ -1,7 +1,7 @@
 <template>
   <section class="imagenCard">
     <section class="imagenCard__container">
-      <img :src="getFile(image)" alt="" />
+      <img :src="getFile(`/src/assets/images/${image}`)" alt="" />
       <section class="imagenCard__container__info">
         <InfoCollection :title="title" :src="avatar" :name="avatarName" />
 
